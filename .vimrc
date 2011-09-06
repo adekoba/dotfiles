@@ -113,5 +113,3 @@ filetype indent on
 map <C-k> :bnext<CR>
 map <C-j> :bprev<CR>
 
-" Enable pathogen
-call pathogen#infect()
