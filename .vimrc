@@ -113,3 +113,5 @@ filetype indent on
 map <C-k> :bnext<CR>
 map <C-j> :bprev<CR>
 
+" Syntax
+au! BufRead,BufNewFile *.sass         setfiletype sass
