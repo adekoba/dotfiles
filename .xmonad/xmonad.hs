@@ -9,7 +9,6 @@ import qualified Data.Map        as M
 myKeys conf@(XConfig {XMonad.modMask = modm}) = M.fromList $
     [ ((modm .|. shiftMask, xK_Return), spawn $ XMonad.terminal conf)
     , ((modm,               xK_p     ), spawn "exe=`dmenu_run -b -nb black -nf white` && eval \"exec $exe\"")
-    , ((modm .|. shiftMask, xK_p     ), spawn "gmrun")
     , ((modm,               xK_x     ), kill)
     , ((modm,               xK_space ), sendMessage NextLayout)
     , ((modm .|. shiftMask, xK_space ), setLayout $ XMonad.layoutHook conf)
