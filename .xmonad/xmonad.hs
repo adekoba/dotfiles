@@ -61,5 +61,5 @@ defaults = defaultConfig {
         keys               = myKeys,
         mouseBindings      = myMouseBindings,
         layoutHook         = myLayout,
-        logHook            = dynamicLog,
+        logHook            = dynamicLog
     }
