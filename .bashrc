@@ -1,5 +1,3 @@
-. ~/.bashrc-local
-
 # Check for an interactive session
 [ -z "$PS1" ] && return
 
@@ -10,3 +8,5 @@ alias ....='cd ../../..'
 alias .....='cd ../../../..'
 
 complete -cf sudo
+
+. $HOME/.bashrc-local
